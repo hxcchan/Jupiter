@@ -20,7 +20,7 @@ public class Game {
         this.name = builder.name;
         this.boxArtUrl = builder.boxArtUrl;
     }
-
+    //json --> object annotation
     @JsonProperty("id")
     public String getId() {
         return id;

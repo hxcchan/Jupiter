@@ -30,7 +30,6 @@ public class TwitchClient {
     private static final String CLIP_SEARCH_URL_TEMPLATE = "https://api.twitch.tv/helix/clips?game_id=%s&first=%s";
     private static final String TWITCH_BASE_URL = "https://www.twitch.tv/";
     private static final int DEFAULT_SEARCH_LIMIT = 20;
-    //private static final ItemType STREAM = ItemType.STREAM;
 
 
     private String searchTwitch(String url) throws TwitchException {
